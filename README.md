@@ -11,7 +11,7 @@ For information on how to contribute, read:
 #### Instruction for install package for cloud-init ####
 1.  Download the cloud-init ZIP file and transfer the ZIP file to an ECS instance.
     The instruction below will use /tmp/CLOUD-INIT as the workspace for installing the cloud-init package.
-    - wget https://github.com/huaweicloud/cloud-init-0.7.9/archive/master.zip
+    - wget https://github.com/huaweicloud/cloud-init-0.7.6/archive/master.zip
     - mkdir /tmp/CLOUD-INIT
     - cp cloud-init-0.7.6-master.zip /tmp/CLOUD-INIT
     - cd /tmp/CLOUD-INIT
