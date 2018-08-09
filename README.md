@@ -32,7 +32,8 @@ For information on how to contribute, read:
     - python setup.py install --init-system systemd
 
     RHEL does not have a syslog user by default, you have to add it manually.
-    - useradd syslog 
+    - useradd syslog
+    
     System_info section, replace distro: ubuntu with distro: rhel or distro: sles according to the distribution you will use.
    
     Ensure all cloud-init services are in active status by issuing the following commands.
