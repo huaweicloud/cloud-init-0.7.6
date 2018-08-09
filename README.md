@@ -23,6 +23,7 @@ For information on how to contribute, read:
     - mv cloud-init-0.7.6-master cloud-init-0.7.6
 
 4.  Install the cloud-init package.
+
     CentOS6.x/SLES11.x：
     - python setup.py build
     - python setup.py install --init-system sysvinit
