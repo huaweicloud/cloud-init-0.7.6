@@ -11,24 +11,21 @@ For information on how to contribute, read:
 #### Instruction for install package for cloud-init ####
 1.  Download the cloud-init ZIP file and transfer the ZIP file to an ECS instance.
     The instruction below will use /tmp/CLOUD-INIT as the workspace for installing the cloud-init package.
-    - wget https://github.com/huaweicloud/cloud-init-0.7.6/archive/master.zip
+    - wget https://github.com/huaweicloud/huaweicloud-cloud-init/archive/cloud-init-0.7.6.zip
     - mkdir /tmp/CLOUD-INIT
-    - cp cloud-init-0.7.6-master.zip /tmp/CLOUD-INIT
+    - cp cloud-init-0.7.6.zip /tmp/CLOUD-INIT
     - cd /tmp/CLOUD-INIT
  
 2.  Extract the cloud-init ZIP file
-    - unzip cloud-init-0.7.6-master.zip
-    
-3.  Rename the folder from cloud-init-0.7.6-master to cloud-init-0.7.6
-    - mv cloud-init-0.7.6-master cloud-init-0.7.6
+    - unzip cloud-init-0.7.6.zip
 
-4.  Install the cloud-init package.
+3.  Install the cloud-init package.
 
-    CentOS6.x/SLES11.x：
+    CentOS|RHEL|Oracle6.x/SLES11.x：
     - python setup.py build
     - python setup.py install --init-system sysvinit
 
-    CentOS7.x/SLES12.x：
+    CentOS|RHEL|Oracle7.x/SLES12.x：
     - python setup.py build
     - python setup.py install --init-system systemd
 
