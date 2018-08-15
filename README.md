@@ -1,4 +1,4 @@
-huawecloud-cloud-init
+huaweicloud-cloud-init
 ================
 # Linux cloud-init support #
 ----------------------------
