@@ -1,4 +1,4 @@
-cloud-init-0.7.6
+huawecloud-cloud-init
 ================
 # Linux cloud-init support #
 ----------------------------
