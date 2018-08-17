@@ -7,6 +7,10 @@ See documentation at http://cloudinit.readthedocs.org/
 
 For information on how to contribute, read:
  http://cloudinit.readthedocs.io/en/latest/topics/hacking.html
+
+#### Download package for cloud-init ####
+https://github.com/huaweicloud/huaweicloud-cloud-init/archive/cloud-init-0.7.6.zip
+https://github.com/huaweicloud/huaweicloud-cloud-init/archive/cloud-init-0.7.9.zip
  
 #### Instruction for install package for cloud-init ####
 1.  Download the cloud-init ZIP file and transfer the ZIP file to an ECS instance.
@@ -48,3 +52,4 @@ For information on how to contribute, read:
     - cloud-init init --local
       /usr/lib64/python2.6/site-packages/cryptography/__init__.py:26: DeprecationWarning: Python 2.6 is no longer supported by the Python core team, please upgrade your Python. A future version of cryptography will drop support for Python 2.6 DeprecationWarning
       Cloud-init v. 0.7.6 running 'init-local' at Wed, 29 Mar 2017 04:43:52 +0000. Up 7486345.46 seconds.
+      
