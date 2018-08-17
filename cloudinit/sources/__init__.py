@@ -202,15 +202,15 @@ class DataSource(object):
                 else:
                     toks = ["ip-%s" % lhost.replace(".", "-")]
             else:
-                toks = lhost.split(".")
+                toks = lhost.split(".novalocal")
 
         if len(toks) > 1:
             hostname = toks[0]
-            domain = '.'.join(toks[1:])
+            #domain = '.'.join(toks[1:])
         else:
             hostname = toks[0]
 
-        if fqdn:
+        if fqdn and domain != defdomain:
             return "%s.%s" % (hostname, domain)
         else:
             return hostname
