@@ -52,10 +52,9 @@ For information on how to contribute, read:
 
 4.  How to check cloud-init package if install success.
     - cloud-init -v
-      /usr/lib64/python2.6/site-packages/cryptography/\__init\__.py:26: DeprecationWarning: Python 2.6 is no longer supported by the Python core team, please upgrade your Python. A future version of cryptography will drop support for Python 2.6 DeprecationWarning
+
       cloud-init 0.7.6
       
     - cloud-init init --local
-      /usr/lib64/python2.6/site-packages/cryptography/\__init\__.py:26: DeprecationWarning: Python 2.6 is no longer supported by the Python core team, please upgrade your Python. A future version of cryptography will drop support for Python 2.6 DeprecationWarning
-      Cloud-init v. 0.7.6 running 'init-local' at Wed, 29 Mar 2017 04:43:52 +0000. Up 7486345.46 seconds.
 
+      Cloud-init v. 0.7.6 running 'init-local' at Sat, 18 Aug 2018 04:43:52 +0000. Up 7486345.46 seconds.
