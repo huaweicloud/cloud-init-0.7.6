@@ -3,14 +3,14 @@ huaweicloud-cloud-init
 # Linux cloud-init support #
 ----------------------------
 Package provides configuration and customization of cloud instance.
-See documentation at http://cloudinit.readthedocs.org/
+- See documentation at http://cloudinit.readthedocs.org/
 
 For information on how to contribute, read:
- http://cloudinit.readthedocs.io/en/latest/topics/hacking.html
+- http://cloudinit.readthedocs.io/en/latest/topics/hacking.html
 
 #### Download package for cloud-init ####
-https://github.com/huaweicloud/huaweicloud-cloud-init/archive/cloud-init-0.7.6.zip
-https://github.com/huaweicloud/huaweicloud-cloud-init/archive/cloud-init-0.7.9.zip
+- https://github.com/huaweicloud/huaweicloud-cloud-init/archive/cloud-init-0.7.6.zip
+- https://github.com/huaweicloud/huaweicloud-cloud-init/archive/cloud-init-0.7.9.zip
  
 #### Instruction for install package for cloud-init ####
 1.  Download the cloud-init ZIP file and transfer the ZIP file to an ECS instance.
@@ -39,6 +39,13 @@ https://github.com/huaweicloud/huaweicloud-cloud-init/archive/cloud-init-0.7.9.z
     System_info section, replace distro: ubuntu with distro: rhel or distro: sles according to the distribution you will use.
    
     Ensure all cloud-init services are in active status by issuing the following commands.
+    CentOS|RHEL|Oracle6.x/SLES11.x：
+    - chkconfig cloud-init-local on
+    - chkconfig enable cloud-init on
+    - chkconfig enable cloud-config on
+    - chkconfig enable cloud-final on
+
+    CentOS|RHEL|Oracle7.x/SLES12.x：
     - systemctl enable cloud-init-local.service
     - systemctl enable cloud-init.service
     - systemctl enable cloud-config.service
