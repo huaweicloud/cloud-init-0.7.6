@@ -23,11 +23,11 @@ For information on how to contribute, read:
 
 3.  Install the cloud-init package.
 
-    CentOS|RHEL|Oracle6.x/SLES11.x：
+    CentOS|RHEL|Oracle6.x/SLES11.x:
     - python setup.py build
     - python setup.py install --init-system sysvinit
 
-    CentOS|RHEL|Oracle7.x/SLES12.x：
+    CentOS|RHEL|Oracle7.x/SLES12.x:
     - python setup.py build
     - python setup.py install --init-system systemd
 
@@ -37,13 +37,13 @@ For information on how to contribute, read:
     System_info section, replace distro: ubuntu with distro: rhel or distro: sles according to the distribution you will use.
    
     Ensure all cloud-init services are in active status by issuing the following commands.
-    CentOS|RHEL|Oracle6.x/SLES11.x：
+    CentOS|RHEL|Oracle6.x/SLES11.x:
     - chkconfig cloud-init-local on
     - chkconfig enable cloud-init on
     - chkconfig enable cloud-config on
     - chkconfig enable cloud-final on
 
-    CentOS|RHEL|Oracle7.x/SLES12.x：
+    CentOS|RHEL|Oracle7.x/SLES12.x:
     - systemctl enable cloud-init-local.service
     - systemctl enable cloud-init.service
     - systemctl enable cloud-config.service
