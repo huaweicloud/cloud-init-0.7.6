@@ -1,6 +1,4 @@
-huaweicloud-cloud-init
-================
-# Linux cloud-init support #
+# Linux huaweicloud-cloud-init support #
 ----------------------------
 Package provides configuration and customization of cloud instance.
 - See documentation at http://cloudinit.readthedocs.org/
