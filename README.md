@@ -37,7 +37,7 @@ For information on how to contribute, read:
     System_info section, replace distro: ubuntu with distro: rhel or distro: sles according to the distribution you will use.
    
     Ensure all cloud-init services are in active status by issuing the following commands.
-    
+
     CentOS|RHEL|Oracle6.x/SLES11.x:
     - chkconfig cloud-init-local on
     - chkconfig enable cloud-init on
