@@ -37,6 +37,7 @@ For information on how to contribute, read:
     System_info section, replace distro: ubuntu with distro: rhel or distro: sles according to the distribution you will use.
    
     Ensure all cloud-init services are in active status by issuing the following commands.
+    
     CentOS|RHEL|Oracle6.x/SLES11.x:
     - chkconfig cloud-init-local on
     - chkconfig enable cloud-init on
@@ -57,4 +58,4 @@ For information on how to contribute, read:
     - cloud-init init --local
       /usr/lib64/python2.6/site-packages/cryptography/\__init\__.py:26: DeprecationWarning: Python 2.6 is no longer supported by the Python core team, please upgrade your Python. A future version of cryptography will drop support for Python 2.6 DeprecationWarning
       Cloud-init v. 0.7.6 running 'init-local' at Wed, 29 Mar 2017 04:43:52 +0000. Up 7486345.46 seconds.
-      
+
